@@ -1,0 +1,18 @@
+span, li {
+    border: 2px solid rgb(92, 92, 196);
+    padding: 10px;
+}
+
+p, ul {
+    border: 5px solid rgb(230, 65, 65);
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+p {
+    display: inline;
+}

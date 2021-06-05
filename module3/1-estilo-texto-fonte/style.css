@@ -1,0 +1,53 @@
+* {
+    /*DEFAULT FONTS => sans-serif, cursive, serif, monoscape, fantasy*/
+    font-family: 'Baloo Tammudu 2', Arial, 'sans-serif';
+}
+
+#cor p {
+    color: crimson;
+}
+
+#estilo_fonte :nth-child(1){
+    font-style: normal;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: underline overline;
+}
+
+#estilo_fonte :nth-child(2){
+    font-style: italic;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+
+#estilo_fonte :nth-child(3){
+    font-style: oblique;
+    font-weight: 300;
+    text-transform: full-width;
+}
+
+#sombra {
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px blueviolet;
+}
+
+#alinhar :nth-child(1) {
+    text-align: center;
+    line-height: 1.6;
+}
+
+#alinhar :nth-child(2) {
+    text-align: right;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+
+#alinhar :nth-child(3) {
+    text-align: justify;
+
+}
+/*FOOTER*/
+footer {
+    text-align: center;
+
+}

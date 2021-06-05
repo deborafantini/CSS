@@ -1,0 +1,41 @@
+/*
+font-family
+color
+border-bottom (en-US)
+font-weight
+font-size
+text-decoration
+Eu usei uma mistura de seletores, estilizando elementos como h1 e h2, mas também criando uma classe para o título da profissão e estilizando ela.
+
+Use CSS para mudar como esta biografia aparece, alterando valores das propriedades que eu utilizei.
+
+
+*/
+body {
+    font-family: Comfortaa, Arial, sans-serif;
+}
+
+h1 {
+    color: blueviolet;
+    border-bottom: 10px dotted rgb(110, 58, 110);
+}
+
+.job-title {
+    color: grey;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h2 {
+    font-style: italic;
+}
+
+ul {
+    background-color: rgba(202, 183, 247, 0.933);
+    border: 5px solid purple;
+    padding: 20px;
+}
+
+a:hover {
+    color: rgb(31, 168, 31);
+}

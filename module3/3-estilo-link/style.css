@@ -1,0 +1,51 @@
+* {
+    font-family: 'Baloo Tammudu 2', 'sans-serif', Arial;
+}
+
+#link_basic {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 1.5em;
+    line-height: 1.8;
+}
+
+#link_basic a:link {
+    color: blueviolet;
+}
+
+#link_basic a:visited {
+    color: rgb(182, 146, 216);
+}
+
+#link_basic a:focus {
+    border-bottom: 1px solid;
+    background: rgb(255, 184, 32);
+}
+
+#link_basic a:hover {
+    border-bottom: 1px solid;
+    background: blueviolet;
+    color: rgb(255, 184, 32);
+}
+
+#link_basic a:active {
+    background: rgb(13, 34, 73);
+    color: white;
+}
+
+
+#link_icone {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#link_icone a[href*="http"] {
+    background: url(./image/foreign.png) no-repeat 100% 0;
+    padding-right: 18px;
+}
+
+
+/*FOOTER*/
+footer {
+    text-align: center;
+}

@@ -1,0 +1,55 @@
+* {
+    font-family: Poppins, 'sans-serif', Arial;
+}
+
+#abslen {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background: rgb(128, 110, 145);
+}
+
+#rellen {
+    border: 2px solid blueviolet;
+    width: 50vw;
+    height: 50vw;
+}
+
+#remem {
+    font-size: 16px;
+}
+
+/*tamanho da fonte do meu elemento pai*/
+#em li{
+    font-size: 1.3em;
+}
+
+/*tamanho da fonte do meu elemento raiz*/
+#rem li{
+    font-size: 1.3rem;
+}
+
+#porcentagem li{
+    font-size: 80%;
+}
+
+/*COLORS*/
+#key {
+    background: brown;
+}
+
+#hexa {
+    background: #f5f99f;
+}
+
+#rgb {
+    background: rgb(51, 72, 110, 0.3);
+}
+
+#hsl {
+    background: hsla(150, 30%, 60%, 0.6);
+}
+/*FOOTER*/
+footer {
+    text-align: center;
+}

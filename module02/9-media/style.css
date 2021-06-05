@@ -1,0 +1,58 @@
+* {
+    font-family: Poppins, 'sans-serif', Arial;
+}
+
+/*DIMENCIONANDO IMAGENS*/
+#inteiro, #cobrir {
+    border: 2px solid rgb(79, 47, 109);
+    width: 35%;
+    height: 200px;
+}
+#inteiro {
+    object-fit: contain;
+}
+
+#cobrir {
+    object-fit: cover;
+}
+
+/*ESTILIZANDO FORMULÁRIO*/
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  padding: 0; margin: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: 2px solid #000;
+  margin: 0 0 1em 0;
+  padding: 10px;
+  width: 80%;
+}
+
+input[type="submit"] {
+  border: 3px solid #333;
+  background-color: #999;
+  border-radius: 5px;
+  padding: 10px 2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+input[type="submit"]:hover {
+  background-color: #333;
+}
+
+/*FOOTER*/
+footer {
+    text-align: center;
+}

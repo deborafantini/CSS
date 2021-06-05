@@ -1,0 +1,59 @@
+body {
+    font-family: Poppins, 'sans-serif', Arial;
+}
+/*BACKGROUND COLORS*/
+#cor {
+    background-color: rgb(166, 123, 207);
+}
+
+#cor h2 {
+    background-color: brown;
+}
+
+#cor span {
+    background-color: chartreuse;
+}
+
+/*BACKGROUND IMAGE*/
+#imagem {
+    background-image: url(image/star.png);
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+.contida {
+    width: 700px;
+    height: 700px;
+    border: 1px solid black;
+    background-image: url(image/vaso.jpg);
+    background-size: cover;
+    /*background-size: contain => preenche a imagem inteira no background, podendo deixar uma parte em branco ou repetir a imagem para preencher tudo.*/
+}
+
+/*GRADIENTE BACKGROUND*/
+#gradiente {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+/*BACKGROUND SCROLL*/
+#rolagem {
+    width: 800px;
+    height: 1500px;
+    background-image: url(image/pride.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+/*BORDERS*/
+#borda {
+    width: 500px;
+    height: 500px;
+    border: 5px solid blueviolet;
+    border-radius: 15px;
+}
+
+/*FOOTER*/
+footer {
+    text-align: center;
+}

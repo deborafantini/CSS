@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascata e Herança</title>
+    <link rel="stylesheet" href="teste.css">
+</head>
+
+<body>
+    <h1>Cascata e Herança</h1>
+
+    <h2>Cascata</h2>
+
+    <p class="cascata">Aplicando o conceito de cascata, quando é aplicado mais de um seletor com a mesma especificidade,
+        é aplicado o
+        último escrito, o conceito de cascata.</p>
+
+    <h2>Especificidade</h2>
+
+    <div id="especificacao" class="especificacao" style="color: green;">Quando são aplicados seletores diferentes para o
+        mesmo elemento, é
+        aplicado o seletor que tem uma pontuação mais
+        alta. Nesse caso, o STYLE INLINE é mais alto que a ID que é mais alta que a CLASSE que é mais alta que o NOME DO
+        ELEMENTO, quanto mais genérico,
+        mais baixa a pontuação.</div>
+
+    <h2>Herança</h2>
+
+    <ul class="main">
+        <li>Item One</li>
+        <li>Item Two
+            <ul>
+                <li>2.1</li>
+                <li>2.2</li>
+            </ul>
+        </li>
+        <li>Item Three
+            <ul class="special">
+                <li>3.1
+                    <ul>
+                        <li>3.1.1</li>
+                        <li>3.1.2</li>
+                    </ul>
+                </li>
+                <li>3.2</li>
+            </ul>
+        </li>
+    </ul>
+
+    <p>estudar mais esses termos: <br>
+        inherit (en-US) / initial / unset (en-US)
+    </p>
+
+    <blockquote>
+        <p>This blockquote is styled</p>
+    </blockquote>
+
+    <blockquote class="fix-this">
+        <p>This blockquote is not styled</p>
+    </blockquote>
+</body>
+
+</html>

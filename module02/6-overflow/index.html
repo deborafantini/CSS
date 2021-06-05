@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Overflow</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Data Loss</h2>
+
+            <p>Quando deixamos fixo as dimensões de um container em que há texto, pode acontecer o Data Loss, dessa
+                forma, ultrapassando os limites como no seguinte caso:</p>
+
+            <div class="dataloss">
+                <p>Quisque ullamcorper velit quis felis venenatis ultricies. Nulla ante lorem, facilisis quis feugiat
+                    vel, maximus vel neque. Donec quis viverra nulla. Vestibulum tempus finibus purus, eu pulvinar
+                    tortor euismod quis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec pretium
+                    sapien a eleifend bibendum. Donec nec dui lectus. Mauris pulvinar arcu arcu, ut vestibulum eros
+                    imperdiet eget. Nulla varius eu mauris sed hendrerit. Etiam et eleifend justo, congue bibendum odio.
+                    Pellentesque rutrum et mauris non accumsan. Donec sed facilisis neque.</p>
+            </div>
+        </section>
+
+        <br><br><br>
+
+        <section>
+            <h2>Propriedade Overflow</h2>
+
+            <p>Dentro do overflow é possível resolver este problema das seguintes maneiras (de acordo com a sua
+                necessidade). Por default é utilizado o visible</p>
+
+            <p>Usando hidden:</p>
+
+            <div id="esconder" class="dataloss">Quisque ullamcorper velit quis felis venenatis ultricies. Nulla ante
+                lorem, facilisis quis feugiat vel, maximus vel neque. Donec quis viverra nulla. Vestibulum tempus
+                finibus purus, eu pulvinar tortor euismo quis. Interdum et malesuada fames ac ante ipsum primis in
+                faucibus. Donec pretium sapien a eleifend bibendum. Donec nec dui lectus. Mauris pulvinar arcu arcu, ut
+                vestibulum eros imperdiet eget. Nulla varius eu mauris sed hendrerit. Etiam et eleifend justo, congue
+                bibendum odio. Pellentesque rutrum et mauris non accumsan. Donec sed facilisis neque.</div>
+
+            <p>Usando scroll:</p>
+
+            <div id="rolagem" class="dataloss">Quisque ullamcorper velit quis felis venenatis ultricies. Nulla ante
+                lorem, facilisis quis feugiat vel, maximus vel neque. Donec quis viverra nulla. Vestibulum tempus
+                finibus purus, eu pulvinar tortor euismo quis. Interdum et malesuada fames ac ante ipsum primis in
+                faucibus. Donec pretium sapien a eleifend bibendum. Donec nec dui lectus. Mauris pulvinar arcu arcu, ut
+                vestibulum eros imperdiet eget. Nulla varius eu mauris sed hendrerit. Etiam et eleifend justo, congue
+                bibendum odio. Pellentesque rutrum et mauris non accumsan. Donec sed facilisis neque.</div>
+
+            <p>Usando auto:</p>
+
+            <div id="personalizado" class="dataloss">Quisque ullamcorper velit quis felis venenatis ultricies. Nulla
+                ante
+                lorem, facilisis quis feugiat vel, maximus vel neque. Donec quis viverra nulla. Vestibulum tempus
+                finibus purus, eu pulvinar tortor euismo quis. Interdum et malesuada fames ac ante ipsum primis in
+                faucibus. Donec pretium sapien a eleifend bibendum. Donec nec dui lectus. Mauris pulvinar arcu arcu, ut
+                vestibulum eros imperdiet eget. Nulla varius eu mauris sed hendrerit. Etiam et eleifend justo, congue
+                bibendum odio. Pellentesque rutrum et mauris non accumsan. Donec sed facilisis neque.</div>
+        </section>
+
+        <section>
+            <h2></h2>
+
+            <p></p>
+        </section>
+    </main>
+
+    <footer>Create by Debora Fantini</footer>
+</body>
+
+</html>

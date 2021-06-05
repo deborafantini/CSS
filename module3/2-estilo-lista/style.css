@@ -1,0 +1,28 @@
+* {
+    font-family: 'Baloo Tammudu 2', 'sans-serif', Arial;
+}
+
+body {
+    counter-reset: mynum;
+} 
+p.numbered:before {
+    content: counter(mynum) ": ";
+    counter-increment: mynum;
+    font-weight: bold;
+}
+
+li.open {
+    list-style: circle;
+}
+
+li.closed {
+    list-style: disc;
+}
+
+li.info {
+    list-style: upper-latin;
+}
+/*FOOTER*/
+footer {
+    text-align: center;
+}

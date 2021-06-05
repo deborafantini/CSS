@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizando CSS</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Organizing your CSS</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Guia de Estilo definido</h2>
+
+            <p>No seu projeto existe um guia de estilo já definido? Isso é muito importante para manter a consistência e
+                facilitar que outras pessoas façam a leitura do seu documento. Caso você não possua (geralmente em
+                projetos próprios), visite o <a
+                    href="https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Code_guidelines/CSS"
+                    target="_blank">guia da Mozilla</a> para poder se orientar.</p>
+        </section>
+
+        <section>
+            <h2>Mantenha a consistência</h2>
+
+            <p>É muito importante ressaltar este ponto. A consistência beneficia outras pessoas que vão ler teu
+                documento e facilita o seu trabalho, já que tu vai seguir um padrão. Lembrando que não existe apenas um
+                forma certa de padronizar teus documentos, escolha a que goste mais e dê preferência em seguir sempre
+                ela, para diminuir a carga mental.</p>
+        </section>
+
+        <section>
+            <h2>Comentar não tira pedaço</h2>
+
+            <p>É relevante gerar comentários entre as seções para deixar explícita onde ela começa e termina e comentar
+                em momentos que você achar pertinente (seja para explicar uma propriedade que aprendeu recentemente,
+                tutorial, ou o motivo de ter feito daquela maneira).</p>
+        </section>
+
+        <section>
+            <h2>Crie uma sequência lógica no seu CSS</h2>
+
+            <p>Comece de cima para baixo (body, h1, p, table...). Assim fica muito mais fácil para localizar o que
+                deseja, principalmente quando se trata de projetos grandes.</p>
+        </section>
+
+        <section>
+            <h2>Evite seletores muito específicos</h2>
+
+            <p>Cada situação deve ser avaliada se um seletor convém ou não está ali. O mais importante é analisar se
+                estar havendo uma duplicidade de informação, caso tenha, descarte este seletor e gere um que abranga
+                todos ou a maioria.</p>
+        </section>
+
+        <section>
+            <h2>Divida as folhas de estilo grandes em várias folhas menores</h2>
+
+            <p>Em projetos onde há várias páginas, faz sentido ter mais de uma folha de estilo, sendo uma mais
+                generalista e outra específica à página.</p>
+        </section>
+
+        <section>
+            <h2>Metodologias CSS</h2>
+
+            <p>Existem metodologias já predefinidas. Aqui irei apresentar as mais utilizadas:</p>
+
+            <h3>OOCSS</h3>
+
+            <p>É uma metodologia onde utiliza Orientação a Objetos no CSS, criando modelos padrões onde podem ser
+                reutilizados na sua página web. Para maiores informações, entre em seu <a
+                    href="https://github.com/stubbornella/oocss/wiki" target="_blank">repositório</a>.</p>
+
+            <h3>BEM</h3>
+
+            <p>BEM -> Block Element Modifier, neste método os elementos são vinculados a um bloco e existe uma
+                nomenclatura de nomeação de classes e ids (geralmente com uso de travessão e underscore). Ela é muito
+                utilizada atualmente e <a href="https://css-tricks.com/bem-101/" target="_blank">neste artigo</a> você
+                encontrará uma explicação ampla do seu conceito e porque usar.</p>
+        </section>
+
+        <section>
+            <h2>Construindo Sistemas para o CSS</h2>
+
+            <p>Uma outra maneira para organizar o seu CSS é usando uma abordagem mais programável, usando ferramentas de
+                pré e pós-processador. Uma de pré-processador muito conhecida é o <a href="https://sass-lang.com/"
+                    target="_blank">Sass</a> e a de pós-processador é o <a href="https://cssnano.co/"
+                    target="_blank">cssnano</a>.</p>
+        </section>
+
+    </main>
+
+    <footer>Create by Debora Fantini</footer>
+</body>
+
+</html>

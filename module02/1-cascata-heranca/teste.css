@@ -1,0 +1,47 @@
+/*Aplicando o conceito de cascata*/
+.cascata {
+    color: red;
+    border: 5px dotted black;
+}
+
+.cascata {
+    color: blue;;
+}
+
+/*Aplicando o conceito de especificação*/
+div {
+    color: blue;
+    background-color: cornflowerblue;
+}
+
+.especificacao {
+    color: red;
+    padding: 20px;
+}
+
+#especificacao {
+    color: white;
+}
+
+/*Aplicando o conceito de herança*/
+.main {
+    color: rebeccapurple;/*herdado*/
+    border: 2px solid #ccc;/*não herdado*/
+    padding: 1em;/*não herdado*/
+}
+
+.special {
+    color: rgb(221, 22, 22);
+    font-weight: bold;
+}
+
+blockquote {
+    background-color: red;
+    border: 2px solid green;
+}
+        
+.fix-this {
+    all: unset;
+}
+
+

@@ -1,0 +1,10 @@
+/*Exemplo de seletor de atributo*/
+a[title] {
+    color: rgb(22, 95, 91);
+    font-weight: bold;
+}
+
+/*Exemplo de seletor de pseudoelemento [é importante lembrar que também tem os pseudoclasses]*/
+p::first-line {
+    color: rgb(58, 170, 58);
+}

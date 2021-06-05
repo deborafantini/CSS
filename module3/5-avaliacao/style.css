@@ -1,0 +1,82 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+  /*FONTS*/
+  body {
+      font-family: 'Roboto Slab', Helvetica, sans-serif;
+      font-size: 17px;
+      line-height: 1.4;
+      letter-spacing: 1.5px;
+      word-spacing: 2px;
+  }
+
+  h1, h2 {
+    font-family: Nunito, Helvetica, sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+ /*LINKS*/
+
+ a :link {
+     color: #a66;
+ }
+
+ a :visited {
+    color: rgb(68, 14, 14);
+ }
+
+ a :focus {
+     color: rgb(255, 136, 0);
+ }
+
+ a:hover {
+    color: yellow;
+  }

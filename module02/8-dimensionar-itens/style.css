@@ -1,0 +1,24 @@
+* {
+    font-family: Poppins, 'sans-serif', Arial;
+}
+
+/*É IMPORTANTE LEMBRAR QUE VALORES RELATIVOS HERDAM AS INFORMAÇÕES DO PAI*/
+#minmax {
+    border: 5px solid rgb(83, 50, 114);
+    width: 50%;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+#view {
+    border: 5px solid rgb(83, 50, 114);
+    width: 20vw;
+    height: 30vh;
+    font-size: 1wh;
+    overflow: auto;
+}
+
+/*FOOTER*/
+footer {
+    text-align: center;
+}

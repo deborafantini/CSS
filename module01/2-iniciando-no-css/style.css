@@ -1,0 +1,43 @@
+/*utilizando o nome do elemento como seletor, assim alterando todos os elementos com o mesmo nome*/
+h2 {
+    color: red;
+}
+/*estilizando o primeiro parágrafo próximo ao elemento selecionado*/
+h2 + p{
+    font-size: 200%;
+}
+/*com a utilização da vírgula, posso adicionar mais seletores caso eu queira modificá-los da msm forma.*/
+p, li {
+    color: rgb(66, 173, 23);
+}
+/*para estilizar em elemento que está dentro de outro*/
+ul li {
+    list-style-type: none;
+}
+/*quando eu quero estilizar alguns/algum elemento, utilizo a classe para selecionar este elemento.*/
+.special {
+    color: orange;
+    font-weight: bold;
+}
+/*selecionar o elemento que deseja que contém a classe selecionada*/
+ol.special li{
+    color: rgb(163, 30, 74);
+}
+
+/*Abaixo segue estilizações de acordo com o estado que se encontra o elemento, neste caso o elemento a*/
+a:link {
+    color: red;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(60, 46, 139);
+}
+
+/*combinação de seletores e combinadores*/
+body h1 + p .special {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+  }

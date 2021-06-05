@@ -1,0 +1,21 @@
+* {
+    font-family: Poppins, 'sans-serif', Arial;
+}
+
+/*TRATAMENTO DE DIREÇÃO DE TEXTO*/
+#box {
+    inline-size: 150px;
+}
+
+#fisico {
+    writing-mode: horizontal-tb;
+}
+
+#logico {
+    writing-mode: vertical-lr;
+}
+
+/*FOOTER*/
+footer {
+    text-align: center;
+}
